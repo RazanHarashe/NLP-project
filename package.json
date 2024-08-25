@@ -1,0 +1,35 @@
+{
+  "name": "processing",
+  "version": "1.0.0",
+  "description": "Udacity Project",
+  "main": "index.js",
+  "scripts": {
+    "build-prod": "webpack --config webpack.prod.js",
+    "build-dev": "webpack serve --config webpack.dev.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^5.2.6",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^5.3.2",
+    "sass": "^1.35.1",
+    "sass-loader": "^11.1.1",
+    "style-loader": "^3.0.0",
+    "terser-webpack-plugin": "^5.1.4",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0"
+  },
+  "devDependencies": {
+    "css-minimizer-webpack-plugin": "^7.0.0",
+    "jest": "^27.0.6"
+  }
+}
